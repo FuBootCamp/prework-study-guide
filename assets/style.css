@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* The two sections (header and footer) uses the same style */
+
 header,
 footer {
     width: 100%;
@@ -11,10 +13,16 @@ footer {
     color: white;
 }
 
+/* Considering that all the headings are centered  */
+/* is not necesary define a specific class or id */
+
 h1,
 h2 {
     text-align: center;
 }
+
+/* Considering that id only one image
+is not necesaty define a id */
 
 img {
     display: block;
@@ -23,6 +31,9 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Considering that all the unordered list and paragraph have the same style */
+/* is not necesary define a specific class or id */
 
 ul {
     padding-left: 40px;
@@ -33,6 +44,8 @@ p {
     text-align: center;
     font-size: 30px;
 }
+
+/* The class for the four sections define at the HTML file  */
 
 .card {
     width: 80%;
